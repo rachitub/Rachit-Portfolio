@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 15px 0px;
+  background-color: #0F2854;
+  color: #BDE8F5;
+}
+nav {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  font-size: 18px;
+  background-color: #89D4FF;
+}
+a:hover {
+  color: red;
+}
+a {
+  text-decoration: none;
+}
+#Home {
+  height: 25vh;
+  background-color: #112D4E;
+  color: #00ADB5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 20px solid lightskyblue;
+}
+#About {
+  padding: 20px 30px;background-color: #355C7D;
+  border-bottom: 20px solid lightskyblue;
+}
+img {
+  box-shadow: 0 0 30px skyblue;
+  border-radius: 10px;
+}
+#Skills {
+  padding: 20px 30px;
+  background-color: #2FA4D7;
+  border-bottom: 20px solid lightskyblue;
+}
+#Contact {
+  padding: 20px 30px;
+  background-color: #53CBF3;
+  border-bottom: 20px solid lightskyblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  display:block;
+  margin: 6px 0px;
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 6px;
+  margin: 4px 0px;
+}
+form {
+  width: 500px;
+  background-color: #0D1164;
+  padding: 20px;
+  border-radius: 10px;
+  color: aqua;
+  box-shadow: 0 0 30px white;
+}
+#submit:hover {
+  background-color: #234C6A;
+}
+#Achievments {
+  padding: 20px 30px;
+  background-color: #03AED2;
+  border-bottom: 20px solid lightskyblue;
+}
